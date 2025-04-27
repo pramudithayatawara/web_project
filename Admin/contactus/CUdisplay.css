@@ -1,0 +1,84 @@
+/*read data*/
+.container {
+  font-family: 'poppins';
+  border: 1px solid rgb(0, 4, 54);
+  margin: 20px 100px 20px 100px;
+  padding: 50px;
+  height: 500px;
+
+}
+
+/*topic*/
+#top {
+  color: #012e2a;
+  font-weight: bolder;
+}
+
+/*add user button*/
+#add {
+  color: white;
+  background-color: rgb(20, 4, 245);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  float: right;
+
+}
+
+#add:hover {
+  background-color: rgb(12, 7, 80);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/*table*/
+table {
+  margin-top: 50px;
+
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #99c9c5;
+
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04776d;
+  color: white;
+}
+
+/*update button*/
+#upd {
+  background-color: #003757;
+  height: 25px;
+  width: 45px;
+  border: none;
+}
+
+/*delete button*/
+#del {
+  background-color: rgb(116, 3, 25);
+  height: 25px;
+  width: 45px;
+  border: none;
+}

@@ -1,0 +1,161 @@
+/* header styles */
+body {
+    /* background: rgb(49, 61, 151);  */
+    background: linear-gradient(0deg, rgb(107, 118, 203) 0%,  rgba(195, 198, 225, 1) 100%); 
+    height: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#headerArea{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    background-color:rgb(107, 118, 203,0.8);
+}
+
+#mainCon{
+    margin-top: 170px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 0;
+    font-size: 25px;
+}
+
+nav>a {
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.title span{
+    color: #313d97;
+    font-size: 40px;
+}
+
+a>h6 {
+    color: black;
+    font-weight: bold;
+}
+
+a>h6:hover{
+    color: rgb(8, 0, 248);
+}
+
+.logo {
+    margin: 40px 40px 0px 0px;
+}
+
+.logo .btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+/* =================================================================== */
+
+/* footer styles */
+#footer{
+    background-color: rgba(50, 51, 51, 0.5);
+    color: rgb(13, 13, 13);
+    padding: 25px 0px;
+    font-size: 25px;
+}
+
+#footer table tr>td{
+    padding-left: 50px;
+    width: 70%;
+}
+
+#footer .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#footer h6{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#footer h5{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* main home page css */
+
+#featured_area h1{
+    text-align: center;
+}
+
+.featured_area{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.featured_area div{
+    margin-right: 10px;
+    background-color: #d8d8d8ae;
+    padding: 15px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.featured_area div:hover{
+    background-color: transparent;
+    box-shadow: 1px 2px 2px 2px rgb(107, 118, 203);
+    margin-top: -8px;
+}
+
+.featured_area div i{
+    color: rgb(38, 50, 210);
+    font-size: 60px;
+}
+
+
+#appointmentArea{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+    background-color: #7b88ebd3;
+}
+
+h1{
+    text-align: center;
+}
+
+#teamDisplay{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 75px;
+}
+
+#teamDisplay div{
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(141, 188, 228, 0.684);
+    box-shadow: 1px 2px 2px 2px rgba(82, 95, 195, 0.8);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#teamDisplay div:hover{
+    margin-top: -8px;
+}

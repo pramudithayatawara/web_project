@@ -1,0 +1,154 @@
+/* header styles */
+body {
+    /* background: rgb(49, 61, 151);  */
+    background: linear-gradient(0deg, rgb(107, 118, 203) 0%,  rgba(195, 198, 225, 1) 100%); 
+    height: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+nav>a {
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+#site_name>h3{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    /* color: #a8a9a892; */
+}
+
+#site_name span{
+    color: #313d97;
+}
+
+a>h6 {
+    color: #313d97;
+    font-weight: bold;
+}
+
+a>h6:hover{
+    color: #000c66;
+}
+
+.logo {
+    margin: 40px 40px 0px 0px;
+}
+
+/* =================================================================== */
+
+/* footer styles */
+#footer{
+    background-color: rgba(50, 51, 51, 0.5);
+    color: rgb(13, 13, 13);
+    padding: 25px 0px;
+}
+
+#footer .col-9{
+    padding-left: 50px;
+}
+
+#footer h5{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* home page css */
+#featured_area img{
+    width: 50%;
+    padding: 10px;
+}
+
+#featured_area {
+    padding: 0px 50px;
+    margin-top: 130px;
+}
+
+#featured_area tr{
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+
+.topic{
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+.description{
+    width: 800px;
+    padding-right: 50px;
+    font-family: cursive;
+}
+
+.price{
+    width: 170px;
+}
+
+.Btn{
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Btn button{
+    background-color: none;
+    border: none;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+.add_cart{
+    font-weight: bold;
+    background-color: rgb(236, 236, 92);
+}
+.add_cart:hover{
+    background-color: rgb(61, 179, 61);
+}
+
+#view_more_btn{
+    width: 150px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 15px;
+    background-color: #17279e;
+    height: 40px;
+}
+
+#view_more_btn:hover{
+    background-color: #f5f5f5;
+    color: #000c66;
+}
+
+/* ---------- */
+
+#users table{
+    width: 80%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#users h6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#users table td{
+    width: 25%;
+}
+
+#users table h1{
+    font-size: 100px;
+}
